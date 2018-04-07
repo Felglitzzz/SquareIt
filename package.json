@@ -1,0 +1,28 @@
+{
+  "name": "squareit",
+  "version": "1.0.0",
+  "description": "SquareIt is a program built with Javascript that takes in numbers and squares every digit therein.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felglitzzz/SquareIt.git"
+  },
+  "author": "Amande Olaoluwa Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felglitzzz/SquareIt/issues"
+  },
+  "homepage": "https://github.com/Felglitzzz/SquareIt#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
