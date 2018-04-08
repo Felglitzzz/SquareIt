@@ -1,12 +1,19 @@
 import validate from './validations';
-  
+  /**
+   * @name squareIt
+   * @desc A method that takes in integer and returns the squared digits of the integer
+   * 
+   * @param {number} integer
+   * 
+   * @returns {number} squared digits of the integer
+   */
   const squareIt = (integer) => {
 
     // handling edge cases
     const error = validate(integer);
     if (error) return;
 
-    // Hit the squareIt method only if the parameter is valid
+    // run the squareIt method only if the parameter is valid
     const numStringify = integer.toString();
     let square = '';
     const splitted = (numStringify.split(''));
